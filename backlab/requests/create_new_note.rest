@@ -1,8 +1,9 @@
 POST http://localhost:3001/api/notes
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImppbW15IiwiaWQiOiI2OGQ4OTIyMjQ5NGZkZTNkMmM5MGVkOWEiLCJpYXQiOjE3NTkwNTc0NTF9.zgGMXQxHTTGMT6Sg3jnHRnSwy90YW6q7oTPNnfBTl2Y
 
 {
-    "content": "New test buddy",
+    "content": "@nd note for Jimmy",
     "important": true,
-    "userId": "68d886d4fc0dac1b39983f2d"
+    "userId": "68d89222494fde3d2c90ed9a"
 }

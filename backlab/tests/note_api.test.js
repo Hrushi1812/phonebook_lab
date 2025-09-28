@@ -67,7 +67,8 @@ describe('when there is initially some notes saved', () => {
     test('succeeds with valid data', async () => {
       const newNote = {
         content: 'async/await simplifies making async calls',
-        important: true
+        important: true,
+        userId: (await helper.usersInDb())[0].id //This test throws error, if no user field is added
       }
 
       await api

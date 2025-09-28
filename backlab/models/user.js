@@ -27,3 +27,9 @@ userSchema.set('toJSON', {
 })
 
 module.exports = mongoose.model('User', userSchema)
+
+// const newUser = {
+//       username: 'root',
+//       name: 'Superuser',
+//       password: 'salainen',
+//     }
