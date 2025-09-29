@@ -1,5 +1,5 @@
 h1 {
-  color: blue;
+  color: rgb(231, 14, 255);
 
   font-style: italic;
 }
@@ -10,7 +10,7 @@ li {
 }
 
 .note {
-  color: rgb(20, 214, 214);
+  color: #1606f4;
   padding-top: 5px;
   font-size: 15px;
 }
